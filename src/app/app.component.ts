@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'miselaneos';
+  color: string;
+  setColor(color: string) {
+    this.color = color;
+  }
 }
